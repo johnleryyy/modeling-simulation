@@ -57,7 +57,7 @@ def generate_synthetic_movie_data(features, class_settings, sample_size):
 
     return pd.DataFrame(data)
 
-# Streamlit App
+## Streamlit App
 st.title("Synthetic Movie Data Generator and Classifier", anchor="title")
 
 # Sidebar for Data Generation Parameters
